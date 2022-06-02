@@ -164,9 +164,6 @@ thread_sold_split = []
 for thread in thread_sold:
   for color in thread.split('&'):
     thread_sold_split.append(color)
-  # else:
-  #   thread_sold_split.append(thread)
-# print(thread_sold_split)
 
 #a function that takes one argument, color, and iterate through thread_sold_split and count the number of times the item is equal to argument. Then return this count.
 def color_count(color):
